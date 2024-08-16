@@ -6,7 +6,6 @@ inputs:
     description: "GitHub username"
     required: true
     default: "developer"
-    deprecationMessage: ""
 outputs:
   username:
     description: "GitHub username"
