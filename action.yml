@@ -1,0 +1,16 @@
+name: experimental-github-action
+author: eamonnk418
+description: An experimental GitHub Action compiled as a static binary wrapped with a Javascript shim.
+inputs:
+  username:
+    description: "GitHub username"
+    required: true
+    default: "developer"
+    deprecationMessage: ""
+outputs:
+  username:
+    description: "GitHub username"
+    value: ${{ inputs.username }}
+runs:
+  using: "node20"
+  main: "invoke-binary.js"
