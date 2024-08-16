@@ -16,4 +16,4 @@ jobs:
       - name: Experimental action setup step
         uses: ./
         with:
-          username: ${{ github.event.commits.author }}
+          username: "eamonnk418"
